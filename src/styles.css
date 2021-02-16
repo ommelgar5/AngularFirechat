@@ -12,16 +12,16 @@
 
 .chat-window{
   padding: 10px;
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 500px;
   overflow: hidden;
   border: 1px solid #4080FF;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .app-mensajes{
-  overflow-y:scroll;
-  height:270px;
+  overflow-y: auto;
+  height: 350px;
   /*background:gray;*/
   padding: 5px;
 }
@@ -55,3 +55,15 @@
 .fadeIn {
   animation-name: fadeIn;
 }
+
+.enviar {
+  position: relative;
+}
+
+.ico-enviar {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    color: #4080FF;
+}
+
